@@ -1,0 +1,23 @@
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Details</th>
+    </tr>
+
+    <% for(var i=0;i<mydata.length;i++){%>
+        <tr>
+
+            <td><%= i+1 %></td>
+            <td><%= mydata[i].pname %></td>
+            <td><%= mydata[i].pprice %></td>
+            <td><%= mydata[i].pdetails %></td>
+
+        </tr>
+
+
+
+    <% } %>
+
+</table>
