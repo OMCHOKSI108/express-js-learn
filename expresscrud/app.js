@@ -10,7 +10,7 @@ const mongoose = require('mongoose');
 var app = express();
 
 // MongoDB connection 
-// mongoose.connect('mongodb+srv://skrutii:sans@skrutiii.55nsrqn.mongodb.net/?retryWrites=true&w=majority&appName=Skrutiii')
+// mongoose.connect('mongodb+srv://Pentesti:sans@Pentestii.55nsrqn.mongodb.net/?retryWrites=true&w=majority&appName=Pentestii')
 mongoose.connect('mongodb://localhost:27017')
 .then(() => console.log('DB Connected!'))
 .catch((err) => console.log("DB Connection Faild"+err));
